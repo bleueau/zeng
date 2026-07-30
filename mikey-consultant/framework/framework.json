@@ -1,0 +1,158 @@
+{
+  "framework_name": "Mikey Framework",
+  "version": "1.0",
+  "description": "基于750条可追溯Evidence和17个核心Concept构建的Mikey体系推理框架。用于结构化分析具体关系/约会/社交案例。所有节点均可追溯至Concept→Evidence ID。",
+  "source_data": {
+    "total_evidence": 750,
+    "total_concepts": 17,
+    "evidence_file": "evidence/evidence.json",
+    "concept_map_dir": "concept_map/"
+  },
+
+  "core_principles": [
+    {
+      "id": "P01",
+      "name": "关系动态决定吸引力",
+      "description": "Mikey体系认为，吸引力不来自外在数值（财富、学历、外貌），而来自关系动态中的上位者姿态。女性能感知社交地位高于数值。",
+      "source_concepts": ["C004", "C001", "C007", "C013", "C016"],
+      "evidence_count": 28
+    },
+    {
+      "id": "P02",
+      "name": "潜沟通传递核心信息",
+      "description": "Mikey体系认为，表沟通（语言内容）对吸引力的影响远小于潜沟通（状态、气场、行为线索）。女人通过行为线索判断男人价值，而非通过话语。",
+      "source_concepts": ["C004", "C007", "C008", "C009", "C014"],
+      "evidence_count": 22
+    },
+    {
+      "id": "P03",
+      "name": "需求感是吸引力杀手",
+      "description": "Mikey体系认为，暴露需求感会让女性感知到已被拿捏，从而停止投入。需求感通过行为线索传递，而非语言。",
+      "source_concepts": ["C017", "C002", "C003", "C004", "C007"],
+      "evidence_count": 16
+    },
+    {
+      "id": "P04",
+      "name": "一致性是长期基础",
+      "description": "Mikey体系认为，从开场到收尾、从线上到线下、从约会到长期关系中保持行为一致性，是维持吸引力的必要条件。一致性断裂导致下头。",
+      "source_concepts": ["C009", "C002", "C004", "C005", "C007"],
+      "evidence_count": 18
+    },
+    {
+      "id": "P05",
+      "name": "施压与减压交替",
+      "description": "Mikey体系认为，把妹本质是让女生从不舒适到舒适的施压到减压交替过程。施压是为了试探反应和升级关系。但施压过度会失去下一次机会。",
+      "source_concepts": ["C001", "C004", "C003"],
+      "evidence_count": 21
+    },
+    {
+      "id": "P06",
+      "name": "投资差距创造吸引",
+      "description": "Mikey体系认为，关系中投资多的一方处于低位。引导对方投资（注意力、情绪、时间）可以巩固吸引。",
+      "source_concepts": ["C002", "C001", "C003", "C005"],
+      "evidence_count": 12
+    },
+    {
+      "id": "P07",
+      "name": "自我价值感独立于外在价值",
+      "description": "Mikey体系认为，有客观价值不等于有价值感。价值感是自我认可，不依赖外界反馈。没有价值感的人即使有资源也无法传递吸引力。",
+      "source_concepts": ["C002", "C005", "C006"],
+      "evidence_count": 19
+    },
+    {
+      "id": "P08",
+      "name": "边界感维持框架",
+      "description": "Mikey体系认为，清晰表达不适、拒绝不合理要求、不围绕对方转，是维持关系中上位者位置的基本方法。没有边界感会导致被利用。",
+      "source_concepts": ["C012", "C005", "C007", "C009"],
+      "evidence_count": 8
+    },
+    {
+      "id": "P09",
+      "name": "零压力状态最佳",
+      "description": "Mikey体系认为，当人不执着于结果、处于放松自然的状态时，反而更容易获得正面结果。过度追求目标会产生压力，导致行为不自然。",
+      "source_concepts": ["C001", "C002", "C003", "C006"],
+      "evidence_count": 15
+    },
+    {
+      "id": "P10",
+      "name": "吸引先于一切技术",
+      "description": "Mikey体系认为，没有吸引的情况下任何技术都无效。有吸引时最荒唐的理由也能被接受。技术只能强化吸引，不能创造吸引。",
+      "source_concepts": ["C001", "C003", "C004", "C005", "C007", "C008"],
+      "evidence_count": 14
+    }
+  ],
+
+  "core_concepts": [
+    {"id": "C001", "name": "约会与升级", "evidence_count": 115, "role": "operational"},
+    {"id": "C002", "name": "心态与内核", "evidence_count": 111, "role": "foundational"},
+    {"id": "C003", "name": "搭讪与开场", "evidence_count": 96, "role": "operational"},
+    {"id": "C004", "name": "框架与底层逻辑", "evidence_count": 86, "role": "foundational"},
+    {"id": "C005", "name": "个人价值与男性成长", "evidence_count": 64, "role": "foundational"},
+    {"id": "C006", "name": "自我意识", "evidence_count": 55, "role": "foundational"},
+    {"id": "C007", "name": "强行为线索", "evidence_count": 42, "role": "foundational"},
+    {"id": "C008", "name": "魅力与展示", "evidence_count": 39, "role": "operational"},
+    {"id": "C009", "name": "一致性", "evidence_count": 36, "role": "foundational"},
+    {"id": "C010", "name": "把妹与方法论", "evidence_count": 34, "role": "meta"},
+    {"id": "C011", "name": "学员案例与实战", "evidence_count": 23, "role": "reference"},
+    {"id": "C012", "name": "边界感与界限", "evidence_count": 12, "role": "operational"},
+    {"id": "C013", "name": "支配与权力", "evidence_count": 11, "role": "foundational"},
+    {"id": "C014", "name": "潜沟通与暗示", "evidence_count": 9, "role": "foundational"},
+    {"id": "C015", "name": "长期关系与策略", "evidence_count": 7, "role": "operational"},
+    {"id": "C016", "name": "慕强与女性心理", "evidence_count": 6, "role": "foundational"},
+    {"id": "C017", "name": "需求感与控制", "evidence_count": 4, "role": "operational"}
+  ],
+
+  "reasoning_models": [
+    {
+      "id": "RM01",
+      "name": "关系阶段识别模型",
+      "description": "根据互动状态判断当前所处的关系阶段（陌生/熟悉/暧昧/亲密/长期），不同阶段适用不同操作规则",
+      "steps": 5,
+      "detail_file": "reasoning_process.md"
+    },
+    {
+      "id": "RM02",
+      "name": "核心变量识别模型",
+      "description": "从案例描述中提取关键变量：吸引力水平、需求感程度、框架位置、投资差距、窗口状态",
+      "steps": 4,
+      "detail_file": "reasoning_process.md"
+    },
+    {
+      "id": "RM03",
+      "name": "问题分类与匹配模型",
+      "description": "将具体问题归类到已知问题类型，匹配对应的原则和决策模型",
+      "steps": 3,
+      "detail_file": "reasoning_process.md"
+    }
+  ],
+
+  "decision_models": [
+    {"id": "DM01", "name": "窗口判断模型", "source_concept": "C007", "detail_file": "decision_models.md"},
+    {"id": "DM02", "name": "吸引力存在性判断", "source_concept": "C001", "detail_file": "decision_models.md"},
+    {"id": "DM03", "name": "升级时机判断", "source_concept": "C001", "detail_file": "decision_models.md"},
+    {"id": "DM04", "name": "需求感暴露判断", "source_concept": "C017", "detail_file": "decision_models.md"},
+    {"id": "DM05", "name": "框架位置判断", "source_concept": "C004", "detail_file": "decision_models.md"},
+    {"id": "DM06", "name": "转场/邀约时机判断", "source_concept": "C001", "detail_file": "decision_models.md"},
+    {"id": "DM07", "name": "搭讪效果判断", "source_concept": "C003", "detail_file": "decision_models.md"},
+    {"id": "DM08", "name": "长期关系健康度判断", "source_concept": "C015", "detail_file": "decision_models.md"}
+  ],
+
+  "evidence_links": {
+    "total_evidence": 750,
+    "evidence_types": ["definition", "principle", "decision_rule", "method", "case", "boundary"],
+    "traceability": "Every framework node can be traced through: Framework Node → Principle/Decision Model → Concept → Evidence ID",
+    "cross_reference_files": {
+      "principles_to_evidence": "principles.md",
+      "decisions_to_evidence": "decision_models.md",
+      "process_to_concepts": "reasoning_process.md"
+    }
+  },
+
+  "application_patterns": {
+    "Chat Interaction": "application_patterns/chat_interaction.md",
+    "Invitation & Scheduling": "application_patterns/invitation.md",
+    "Dating & Escalation": "application_patterns/dating_escalation.md",
+    "Approach & Cold Start": "application_patterns/approach.md",
+    "Long-term Relationship": "application_patterns/long_term.md"
+  }
+}

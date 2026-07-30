@@ -1,0 +1,5 @@
+# 只提交 mikey-consultant 文件夹，排除其他所有内容
+*
+!mikey-consultant/
+!mikey-consultant/**
+!.gitignore

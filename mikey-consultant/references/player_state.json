@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "created": "2026-08-02T00:36:00+08:00",
+    "updated": "2026-08-02T00:44:00+08:00",
+    "total_consultations": 1,
+    "last_consultation": "2026-08-02T00:44:00+08:00"
+  },
+  "experience_level": {
+    "stage": "intermediate_high",
+    "score": 8,
+    "confidence": 0.75,
+    "last_updated": "2026-08-02T00:44:00+08:00"
+  },
+  "constraints": {
+    "relationship_count": 2,
+    "acquisition_channels": ["shared_activity"],
+    "geography": "深圳宝安/南山",
+    "age_range": "20-35"
+  },
+  "active_weaknesses": [
+    {
+      "id": "AW001",
+      "name": "表达偏直接",
+      "severity": "mild",
+      "description": "在涉及亲密话题时，偶尔直接点破而非用调侃带过（如'记得挺清楚'），已能自我觉察并补救",
+      "confidence": 0.5,
+      "status": "aware",
+      "fix_attempted": 1,
+      "last_observed": "2026-07-31"
+    }
+  ],
+  "strengths": [
+    {
+      "id": "S001",
+      "name": "框架稳定性",
+      "description": "在互动中保持主导但不控制，推拉自然，不暴露需求感。面对废测不解释不追逐，用调侃化解",
+      "evidence_count": 2,
+      "confidence": 0.85
+    },
+    {
+      "id": "S002",
+      "name": "阶梯升级能力",
+      "description": "物理升级采用阶梯式推进：服从性测试→轻度肢体接触（带合理借口）→观察反应→升级。7-31楼顶事件完整示范",
+      "evidence_count": 2,
+      "confidence": 0.85
+    },
+    {
+      "id": "S003",
+      "name": "废测识别与应对",
+      "description": "正确识别亲吻后废测（'是不是对很多球友都这样'），不被带偏，不解释，框架未丢",
+      "evidence_count": 1,
+      "confidence": 0.8
+    },
+    {
+      "id": "S004",
+      "name": "内部框架建立",
+      "description": "善于建立两人专属语言（'定金/收费'框架），将亲密行为框定为轻松游戏",
+      "evidence_count": 2,
+      "confidence": 0.85
+    },
+    {
+      "id": "S005",
+      "name": "自我觉察",
+      "description": "能识别自身表达偏直接的问题（'偏直''补调侃圆场'），具备自我修正意识",
+      "evidence_count": 1,
+      "confidence": 0.75
+    }
+  ],
+  "behavior_patterns": [
+    {
+      "id": "BP001",
+      "name": "共同活动出发",
+      "type": "strength",
+      "severity": null,
+      "occurrences": 1,
+      "confidence": 0.85,
+      "status": "active",
+      "last_observed": "2026-08-02",
+      "notes": "通过羽毛球建立联系，自然过渡到私约和物理升级"
+    },
+    {
+      "id": "BP002",
+      "name": "推拉式调侃",
+      "type": "strength",
+      "severity": null,
+      "occurrences": 2,
+      "confidence": 0.85,
+      "status": "active",
+      "last_observed": "2026-08-02",
+      "notes": "使用'逗你一下''你怎么这么单纯''胆子这么小'等调侃维持框架和推拉"
+    },
+    {
+      "id": "BP003",
+      "name": "阶梯式物理升级",
+      "type": "strength",
+      "severity": null,
+      "occurrences": 1,
+      "confidence": 0.8,
+      "status": "active",
+      "last_observed": "2026-08-02",
+      "notes": "7-31楼顶：拿水（服从测试）→掐后脖子（猫借口，合理推诿）→抓脸→凑近→亲吻，每步观察反应"
+    },
+    {
+      "id": "BP004",
+      "name": "表达点破倾向",
+      "type": "attention",
+      "severity": "mild",
+      "occurrences": 1,
+      "confidence": 0.5,
+      "status": "aware",
+      "last_observed": "2026-07-31",
+      "notes": "'记得挺清楚'直接点破亲吻，已有自我觉察+补救意识"
+    }
+  ],
+  "growth_baseline": {
+    "created": "2026-08-02T00:36:00+08:00",
+    "strengths": ["框架稳定", "阶梯升级", "废测应对", "内部框架建立", "自我觉察"],
+    "weaknesses": ["表达偏直接（轻度，已觉察）"],
+    "trend": "stable_positive"
+  },
+  "case_history": [
+    {
+      "date": "2026-08-02T00:44:00+08:00",
+      "target_id": "小金_-J",
+      "type": "status_analysis",
+      "stage": "暧昧加深",
+      "pattern_matched": "X04 零压力成功 + M07 升级推进",
+      "key_findings": [
+        "共同活动→私约→家中喝酒→物理升级，全链路自然无压力",
+        "第一次亲吻后废测（太快/你是不是对很多球友都这样）→用户不解释不追逐→废测自然消解",
+        "第二次亲吻使用完整阶梯升级：服从测试→猫借口→抓脸→凑近→亲吻，她全程未反抗",
+        "她的害羞是真实的（对亲密行为本身害羞），不是对用户的抗拒",
+        "7-28后'尴尬''下次不跟你喝'→7-31后'给你亲缺氧了'，态度从防御转为主动参与",
+        "内部框架'定金/收费'已成为两人亲密暗语，她在主动维护这个游戏",
+        "用户已觉察'表达偏直接'，具备自我修正能力"
+      ],
+      "action_taken": "维持节奏，离深期间低联系，回来后让她请吃饭（她已主动提出）",
+      "outcome": "pending"
+    }
+  ],
+  "relationship_references": [
+    {
+      "target_id": "小金_-J",
+      "target_name": "小金",
+      "stage": "暧昧加深",
+      "meeting_context": "羽毛球搭子",
+      "last_event": "物理升级 x2（7-28首次+7-31二次），她主动提出请吃饭",
+      "status": "active_warming",
+      "next_milestone": "第三次单独约会 / 更深层肢体接触",
+      "risk_factors": ["她离深6天期间的联系频率", "回深后态度是否保持"]
+    }
+  ],
+  "milestones": [],
+  "blind_spots": []
+}

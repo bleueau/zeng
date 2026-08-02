@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "user_id": null,
+    "created": "2026-08-02T13:48:00+08:00",
+    "last_updated": "2026-08-02T14:05:00+08:00",
+    "last_reviewed": null,
+    "consultation_count": 2
+  },
+  "player_core": {
+    "experience_level": "intermediate",
+    "experience_level_confidence": 0.6,
+    "experience_level_evidence": "成功完成两次亲吻升级（7-28/7-31），框架上位，阶梯推进不走跳级，需求感控制良好。缺乏TD经验。",
+    "onboarding_date": "2026-08-02",
+    "primary_context": "羽毛球球友→暧昧→已亲吻。目标对象：小金（女，羽毛球搭子，害羞型，温和不擅拒绝）。用户目标：短期关系，避免纠缠。有女朋友。",
+    "notable_constraints": ["有稳定女友", "同社交圈（球群+球场+球友）", "目标对象害羞型不适合短期"],
+    "status": "active"
+    "status": "active"
+  },
+  "skill_levels": {
+    "approach": {"score": 4, "confidence": 0.4, "last_changed": "2026-08-02", "evidence_ref": "通过共同兴趣（羽毛球）自然建立联系"},
+    "chat_maintain": {"score": 4, "confidence": 0.5, "last_changed": "2026-08-02", "evidence_ref": "收放自如，主动收尾，轻接假性抗拒，调侃不追"},
+    "date_execution": {"score": 4, "confidence": 0.5, "last_changed": "2026-08-02", "evidence_ref": "酒馆+家中+公司球场三次单独约会，接送+引导到位"},
+    "escalation": {"score": 5, "confidence": 0.6, "last_changed": "2026-08-02", "evidence_ref": "两次亲吻升级，阶梯推进（服从测试→触碰→亲吻），第二次升级质量显著优于第一次"},
+    "frame_strength": {"score": 5, "confidence": 0.6, "last_changed": "2026-08-02", "evidence_ref": "框架上位，主导推进节奏，不接假性抗拒，主动收尾"},
+    "neediness_control": {"score": 5, "confidence": 0.6, "last_changed": "2026-08-02", "evidence_ref": "不追逐，不焦虑等待，保持热度对齐，她主动频率高"},
+    "self_awareness": {"score": 4, "confidence": 0.4, "last_changed": "2026-08-02", "evidence_ref": "能识别假性抗拒，对节奏有意识"}
+  },
+  "behavior_patterns": [
+    {
+      "id": "BP001",
+      "name": "阶梯式升级推进",
+      "category": "strength",
+      "severity": "positive",
+      "confidence": 0.8,
+      "occurrences": 3,
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-08-01",
+      "status": "active",
+      "description": "升级前做服从性测试，每步观察反应再推进，不跳级"
+    },
+    {
+      "id": "BP002",
+      "name": "轻接假性抗拒",
+      "category": "strength",
+      "severity": "positive",
+      "confidence": 0.7,
+      "occurrences": 3,
+      "first_observed": "2026-07-28",
+      "last_observed": "2026-07-31",
+      "status": "active",
+      "description": "她说'不敢见了''包跑的'，他不追不解释，调侃轻接后主动收尾"
+    },
+    {
+      "id": "BP003",
+      "name": "主动收尾保持框架",
+      "category": "strength",
+      "severity": "positive",
+      "confidence": 0.7,
+      "occurrences": 3,
+      "first_observed": "2026-07-31",
+      "last_observed": "2026-08-01",
+      "status": "active",
+      "description": "在对话高点主动结束，或故意不升级（不亲转头走）保持不确定性"
+    },
+    {
+      "id": "BP004",
+      "name": "打破常规制造不确定性",
+      "category": "strength",
+      "severity": "positive",
+      "confidence": 0.7,
+      "occurrences": 1,
+      "first_observed": "2026-08-01",
+      "last_observed": "2026-08-01",
+      "status": "active",
+      "description": "已有亲吻惯例后故意跳过亲吻，升高其他亲密行为（摸腿/按摩）但不接吻。短期框架核心操作。tentative（单次观察）"
+    }
+  ],
+  "blind_spots": [
+    {
+      "id": "BS001",
+      "name": "TD经验缺失",
+      "confidence": 0.5,
+      "status": "known",
+      "first_noted": "2026-08-02",
+      "description": "尚未经历完整TD流程，未知在TD场景下的表现"
+    }
+  ],
+  "growth_baseline": {
+    "established": "2026-08-02",
+    "strengths": ["框架稳定", "需求感管控", "升级节奏感", "短期框架操作（打破常规制造不确定性）"],
+    "development_areas": ["TD推进", "TD后节奏管理", "退出策略"]
+  },
+  "milestones": [],
+  "active_weaknesses": [],
+  "case_history": [
+    {
+      "date": "2026-08-02",
+      "case_id": "case_001",
+      "summary": "小金案例正向推进分析。Pipeline Stage 7-8，窗口绿灯扩张。确认7-28→7-31升级轨迹为教科书级。行动：6天离开期防守+回来后第三次约确认+TD路线预判。",
+      "pipeline_stage": {"id": 7, "name": "亲吻", "confidence": 0.8},
+      "window_status": "green_expanding",
+      "outcome": "confirmation_positive"
+    },
+    {
+      "date": "2026-08-02",
+      "case_id": "case_002",
+      "summary": "重大信息修正：用户有女友，只想短期。小金害羞+不擅拒绝+投入快=高危短期对象。建议C路线（行为传递意图）+降情感预期。8-01第三次约：合规度拉满（摸腿零反抗+主动按摩）+故意不亲转头就走=短期框架神操作。窗口深绿灯。",
+      "pipeline_stage": {"id": 8, "name": "转场/TD准备", "confidence": 0.85},
+      "window_status": "green_deep",
+      "outcome": "strategy_recalibrated",
+      "goal": "short_term"
+    }
+  ],
+  "relationship_refs": [
+    {
+      "id": "rel_jin",
+      "name": "小金",
+      "pipeline_stage_current": 8,
+      "start_date": "2026-07-06",
+      "last_interaction": "2026-08-01",
+      "status": "active",
+      "notes": "羽毛球搭子→暧昧→已亲吻。害羞型，不擅拒绝。昵称：小金/小金鱼。叫我：小聪/卷毛/最强搭子。目标：短期关系，避免纠缠。",
+      "goal": "short_term"
+    }
+  ],
+  "active_campaigns": [],
+  "pipeline_progress": {
+    "current_stage": 8,
+    "stage_history": [
+      {"stage": 3, "entered": "2026-07-09", "exited": "2026-07-17", "duration_days": 8},
+      {"stage": 4, "entered": "2026-07-17", "exited": "2026-07-28", "duration_days": 11},
+      {"stage": 6, "entered": "2026-07-28", "exited": "2026-07-28", "duration_days": 0},
+      {"stage": 7, "entered": "2026-07-28", "exited": "2026-08-01", "duration_days": 4},
+      {"stage": 8, "entered": "2026-08-01", "exited": null, "duration_days": null}
+    ],
+    "stage_mismatches": [],
+    "stuck_warnings": [],
+    "last_updated": "2026-08-02"
+  },
+  "window_profile": {
+    "accuracy_history": [
+      {"date": "2026-07-28", "judged": "green", "actual": "green_weak", "notes": "她7-8秒后退走+废测，窗口存在但未完全打开"},
+      {"date": "2026-07-31", "judged": "green", "actual": "green_expanding", "notes": "无反抗+无废测+主动调侃，窗口确认扩张"},
+      {"date": "2026-08-01", "judged": "green", "actual": "green_deep", "notes": "合规度拉满（摸腿零反抗+主动按摩）+她主动趋近+零废测零ASD。窗口完全敞开。"}
+    ],
+    "accuracy_rate": 0.9,
+    "common_misjudgments": [],
+    "last_updated": "2026-08-02"
+  },
+  "text_game_profile": {
+    "current_chat_stage": 7,
+    "chat_stage_history": [],
+    "five_rules_violations": [],
+    "last_updated": "2026-08-02"
+  },
+  "escalation_profile": {
+    "current_rung": 5,
+    "rung_history": [
+      {"rung": 4, "date": "2026-07-28", "result": "partial_success", "notes": "触碰升级→亲吻，7-8秒后退走但未断联"},
+      {"rung": 5, "date": "2026-07-31", "result": "success", "notes": "阶梯推进→亲吻，全程无反抗，事后主动调侃"},
+      {"rung": 5, "date": "2026-08-01", "result": "framed_skip", "notes": "摸腿+按摩零反抗（合规度满），但故意不亲转头走。打破亲吻规律=短期框架。她主动寻求身体亲近（打球时凑近）。"}
+    ],
+    "asd_encounters": [
+      {"date": "2026-07-28", "rung": 5, "asd_type": "verbal_protest", "handled": "correct", "notes": "'太快了吧''你是不是对很多球友都这样'→不接不解释，次日正常互动，废测消失"}
+    ],
+    "last_updated": "2026-08-02"
+  },
+  "subcom_profile": {
+    "weak_signal_patterns": [],
+    "self_awareness_gaps": [],
+    "last_updated": "2026-08-02"
+  }
+}
